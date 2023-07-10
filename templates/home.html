@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<br>
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Paciente</h5>
+            <p class="card-text">Pacientes que usufruem dos serviços da clinica.</p>
+          <a href="/consulta" class="btn btn-primary">Consultar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Tratamento</h5>
+            <p class="card-text">Módulo para cadastro de novos tratamentos.</p>
+          <a href="/tratamento" class="btn btn-primary">Novo</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+{% endblock %}
